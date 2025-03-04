@@ -18,7 +18,6 @@ public class Topic_00_Template {
 
     @Test
     public void TC_01_() {
-        driver = new FirefoxDriver();
         driver.get("https://www.facebook.com/");
     }
 
