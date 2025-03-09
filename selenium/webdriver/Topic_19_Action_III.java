@@ -1,14 +1,12 @@
 package webdriver;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Topic_00_Template {
+public class Topic_19_Action_III {
     WebDriver driver;
 
     @BeforeClass
@@ -18,7 +16,9 @@ public class Topic_00_Template {
 
     @Test
     public void TC_01_() {
-        driver.get("https://www.facebook.com/");
+        driver.get("https://www.facebook.com/")
+        //Drag and Drop --> Không đc khuyến nghị làm automation
+        ;
     }
 
     @Test

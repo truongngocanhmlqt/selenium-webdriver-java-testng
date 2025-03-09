@@ -96,7 +96,7 @@ public class Topic_14_Checkbox_radio {
 
     }
 
-    public void TC_03_Ubuntu() {
+    public void TC_04_Docs() {
         driver.get("https://docs.google.com/forms/d/e/1FAIpQLSfiypnd69zhuDkjKgqvpID9kwO29UCzeCVrGGtbNPZXQok0jA/viewform");
 
 
